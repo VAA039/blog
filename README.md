@@ -24,3 +24,8 @@ pip install -r requirements.txt
 ```
 **Что делает:**
 - Устанавливает все пакеты из файла `requirements.txt` (Django и др.).
+
+## Как запустить сервер
+```bash
+python manage.py runserver
+```
