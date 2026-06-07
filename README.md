@@ -29,3 +29,24 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 ```
+
+
+
+## Миграции базы данных
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+**Что делает:**
+- 'makemigrations' - создёт файлы миграций на основе моделей Django
+- 'migrate' - применяет миграции к базе данных
+
+
+## Создание суперпользователя (опционально)
+```bash
+python manage.py createsuperuser
+```
+
+**Что делает:**
+- Создаёт администратора для доступа к панели Django ('/admin').
