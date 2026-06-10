@@ -5,5 +5,5 @@ from blog.models import Post
 def get_post_list(request):
   posts = Post.objects.all()
 
-  return render(request=request, template_name='blog/post_list.html', context={'posts': posts})
+  return render(request, template_name='blog/post_list.html', context={'posts': posts})
 
